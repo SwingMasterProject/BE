@@ -1,18 +1,25 @@
-<<<<<<< HEAD
+## 실행 방법
+
+1. npm install
+2. node .
+
+## 프로젝트 구조
 
 ```
 express_mongodb
 ├─ .gitignore
-├─ express_mongodb.code-workspace
 ├─ package-lock.json
 ├─ package.json
+├─ README.md
 └─ src
    ├─ api
+   │  ├─ create.js
+   │  ├─ delete.js
+   │  ├─ read.js
+   │  └─ update.js
    ├─ app.js
+   ├─ config
+   │  └─ mongoClient.js
    ├─ models
    └─ server.js
-
 ```
-=======
-# BE
->>>>>>> 67550897cd8ddafc8078a81734c12689a7af204a
